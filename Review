@@ -1,0 +1,21 @@
+
+
+HTML: 
+
+Positives: Overall it's well organized and makes visualizing the overall layout rather intutitive. great job with indenting and staying very tight to industry standards. Your uniformity and consistency is a plus. Getting the whole game like this laid out in HTML in less than 100 lines of code is also more difficult than it looks. Well done!
+
+Improvements: Capitalize the names of the Pokemon.
+
+CSS: 
+
+Positives: As an avid and slightly competitive smasher, I so appreciate using the Pokemon Statium stage as the background. Your layout is very logical and easy to follow. Your heavy use of CSS specificity means that you spent a good amount of time and effort learning all the ins and outs. Also very well done on the modal. Cool choice on the font as well; playful and something I would consider "pokemon appropriate". 
+
+Improvements: I noticed that the display is only partially responsive. I then checked the CSS and saw you had your breakpoints set, but when you make the height of the screen smaller, some elements start sliding out of place or getting behind the images. 
+
+I noticed the transition between the end of the game and the restart is very fast. Why not add a CSS transition to more gradually swith from the end screen "fight again" button to the start of the game? 
+
+JS: 
+
+Positives: Organized and laid out like a pro! Setting your game as one giant object was really clever because you have all your game functions under one localized umbrella. Math.floor(Math.random) was a really good way to decide who gets a turn first. Overall you don't seem to have any bugs in the game, and the automatic restart was a great touch so that players don't have to refresh the page or exit the app. I like how you dynamically added the pictures in the gameplay based on Pokemons' health. Great from both a user experience standpoint and a coding standpoint. 
+
+Improvements: As far as DRY vs WET coding, it looks like you could cut down several parts of your code to help your script run more smoothly and decrease chances for bugs when you go back and edit. At the same time I know where we were as a class at the time we were working on this, so being as on point with the syntax, methods, functions, etc., as you were in here given the level we were at is rather impressive. 
